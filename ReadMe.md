@@ -1,6 +1,7 @@
+Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
+
 # TopDownRTSCamLib - Readme - 2022
 
-Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 This LevelGenerator creaters Actors with StaticMeshes and puts them in a Level on a Random Location.
 
 ## Steps to Create a Level with a DataTable
