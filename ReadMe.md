@@ -1,6 +1,7 @@
 # TopDownRTSCamLib - Readme - 2022
 
 Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
+This LevelGenerator creaters Actors with StaticMeshes and puts them in a Level on a Random Location.
 
 ## Steps to Create a Level with a DataTable
 
@@ -18,6 +19,27 @@ Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 
 6. Choose the GameMode (for Example BP_GeneratorGameMode) in the LevelEditor and Start the Level
 
+## DataTable
+
+There is a DataTable where you can change:
+
+class UStaticMesh* Mesh;  // Change the Mesh of the Actor
+
+FString Name; // Create a Name 
+
+FVector Scale; // Scale the Mesh
+
+FVector RandomRangeMinMultiplier; // X, Y, Z Min Range till the next Actor will Spawn
+
+FVector RandomRangeMaxMultiplier; // X, Y, Z Max Range till the next Actor will Spawn
+
+FVector AbsoluteOffset; // Offset in any direction
+
+bool IsMoving; // Should Actor Move? Yes  -> True
+
+FVector MovementSpeed; // Speed in every direction is chooseable
+
+float MovementRange; // Which Distance to move (after reaching the Object moves back)
 
 ## Download the Plugin
 
