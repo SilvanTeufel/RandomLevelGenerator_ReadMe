@@ -4,7 +4,7 @@ Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 
 ## Steps to Create a Level with a DataTable
 
-1.Create a Blueprint out of the Classes Component and ComponentGeneratorGameMode
+1. Create a Blueprint out of the Classes Component and ComponentGeneratorGameMode
   (In Example they are called BP_Component and BP_GeneratorGameMode)
   
 2. Create a DataTable and choose ComponentData as Table Template.
