@@ -6,11 +6,16 @@ Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 
 1.Create a Blueprint out of the Classes Component and ComponentGeneratorGameMode
   (In Example they are called BP_Component and BP_GeneratorGameMode)
+  
 2. Create a DataTable and choose ComponentData as Table Template.
-  (you can finde my table in All\Engine\Plugins\RandomLevelGenerator\Content\RandomLevelGenerator\Blueprints\Actors\DT_ComponentData
+  (you can finde my table in All\Engine\Plugins\RandomLevelGenerator\Content\RandomLevelGenerator\Blueprints\Actors\DT_ComponentData)
+  
 3. Choose the Table in your BP_Component
+
 4. Choose your ComponentClass (BP_Component) in yoour BP_GeneratorGameMode
+
 5. Fill the Table
+
 6. Start the Level
 
 
