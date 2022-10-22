@@ -35,13 +35,13 @@ FVector RandomRangeMaxMultiplier; // X, Y, Z Max Range till the next Actor will 
 
 int Frequency; // How often should the Object Spawn
 
-FVector AbsoluteOffset; // Offset in any direction
+FVector AbsoluteOffset; // X, Y, Z Offset in any direction
 
 UMaterial* Material; // Choose the Material
 
 bool IsMoving; // Should Actor Move? Yes  -> True
 
-FVector MovementSpeed; // Speed in every direction is chooseable
+FVector MovementSpeed; // X, Y, Z Speed in every direction is chooseable
 
 float MovementRange; // Which Distance to move (after reaching the Object moves back)
 
