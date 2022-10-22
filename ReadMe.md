@@ -14,9 +14,9 @@ Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 
 4. Choose your ComponentClass (BP_Component) in yoour BP_GeneratorGameMode
 
-5. Fill the Table
+5. Fill the Table (for Example DT_ComponentData)
 
-6. Start the Level
+6. Choose the GameMode (for Example BP_GeneratorGameMode) in the LevelEditor and Start the Level
 
 
 ## Download the Plugin
