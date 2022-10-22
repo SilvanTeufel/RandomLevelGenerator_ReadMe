@@ -33,7 +33,11 @@ FVector RandomRangeMinMultiplier; // X, Y, Z Min Range till the next Actor will 
 
 FVector RandomRangeMaxMultiplier; // X, Y, Z Max Range till the next Actor will Spawn
 
+int Frequency; // How often should the Object Spawn
+
 FVector AbsoluteOffset; // Offset in any direction
+
+UMaterial* Material; // Choose the Material
 
 bool IsMoving; // Should Actor Move? Yes  -> True
 
