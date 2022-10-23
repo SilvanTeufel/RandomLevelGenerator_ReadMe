@@ -1,4 +1,5 @@
 Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
+https://www.youtube.com/watch?v=FpRHBom8yyk&t=0s
 
 # RandomLevelGenerator - Readme - 2022
 
@@ -80,5 +81,5 @@ FVector MovementSpeed; // X, Y, Z Speed in every direction is chooseable
 
 float MovementRange; // Which Distance to move (after reaching the Object moves back)
 
-Example of chaning Table can be found @ Youtube: https://www.youtube.com/watch?v=FpRHBom8yyk&t=2s
+Example of chaning Table can be found @ Youtube: https://www.youtube.com/watch?v=FpRHBom8yyk&t=0s
 
