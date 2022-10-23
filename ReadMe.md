@@ -1,6 +1,6 @@
 Copyright 2022 Silvan Teufel / Teufel-Engineering.com All Rights Reserved.
 
-# TopDownRTSCamLib - Readme - 2022
+# RandomLevelGenerator - Readme - 2022
 
 This LevelGenerator creaters Actors with StaticMeshes and puts them in a Level on a Random Location.
 
