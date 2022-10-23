@@ -14,7 +14,7 @@ This LevelGenerator creaters Actors with StaticMeshes and puts them in a Level o
   
 3. Choose the Table in your BP_Component
 
-4. Choose your ComponentClass (BP_Component) in yoour BP_GeneratorGameMode
+4. Choose your ComponentClass (BP_Component) in your BP_GeneratorGameMode
 
 5. Fill the Table (for Example DT_ComponentData)
 
@@ -72,8 +72,8 @@ This Blueprints use the Parent Classes from RandomLevelGenerator Plugin, which y
 
 ## Parent Classes
 
-If RandomLevelGenerator is installed the Classes can be used as Parent Class in Blueprint, so all functions from this Class are available.
-Just use one of the following Classes as Parent Class and or just choose them in your GameMode Blueprint. Category = TopDownRTSCamLib
+If RandomLevelGenerator is installed the Classes can be used as Parent Class in Blueprint.
+
 
 Parentclasses are:
 
