@@ -48,11 +48,11 @@ Parentclasses are:
 2. Create a DataTable and choose ComponentData as Table Template.
   (you can finde my table in All\Engine\Plugins\RandomLevelGenerator\Content\RandomLevelGenerator\Blueprints\Actors\DT_ComponentData)
   
-3. Choose the Table in your BP_Component
+3. Choose the Table in your BP_CompGeneratorGameMode
 
 4. Choose your ComponentClass (BP_Component) in your BP_GeneratorGameMode
 
-5. Fill the Table (for Example DT_ComponentData)
+5. Fill the Table (for Example DT_ComponentData) (All\Engine\Plugins\RandomLevelGenerator\Content\Blueprints\Actors)
 
 6. Choose the GameMode (for Example BP_GeneratorGameMode) in the LevelEditor and Start the Level
 
@@ -66,9 +66,9 @@ FString Name; // Create a Name
 
 FVector Scale; // Scale the Mesh
 
-FVector RandomRangeMinMultiplier; // X, Y, Z Min Range till the next Actor will Spawn
+FVector RandomRangeMin; // X, Y, Z Min Range till the next Actor will Spawn
 
-FVector RandomRangeMaxMultiplier; // X, Y, Z Max Range till the next Actor will Spawn
+FVector RandomRangeMax; // X, Y, Z Max Range till the next Actor will Spawn
 
 int Frequency; // How often should the Object Spawn
 
@@ -82,5 +82,11 @@ FVector MovementSpeed; // X, Y, Z Speed in every direction is chooseable
 
 float MovementRange; // Which Distance to move (after reaching the Object moves back)
 
-Example of can be found @ Youtube: https://www.youtube.com/watch?v=FpRHBom8yyk&t=0s
+ESpawnActorCollisionHandlingMethod CollisionMethod;
 
+FRotator RotationRange; // Choose the Range which Random Rotation should occure (Pitch, Yaw, Roll)
+
+FRotator AbsoluteRotationOffset; // Every Component will have this Rotation (Pitch, Yaw, Roll)
+
+Example of can be found @ Youtube: https://www.youtube.com/watch?v=FpRHBom8yyk&t=0s
+(Rotations and Collisions are not shown in this Video)
