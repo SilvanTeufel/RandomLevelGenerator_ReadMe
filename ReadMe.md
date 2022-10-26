@@ -50,7 +50,7 @@ Parentclasses are:
   
 3. Choose the Table in your BP_CompGeneratorGameMode
 
-4. Choose your ComponentClass (BP_Component) in your BP_GeneratorGameMode
+4. Choose your ComponentClass (BP_Component) in your BP_CompGeneratorGameMode
 
 5. Fill the Table (for Example DT_ComponentData) (All\Engine\Plugins\RandomLevelGenerator\Content\Blueprints\Actors)
 
